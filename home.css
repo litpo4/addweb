@@ -1,0 +1,185 @@
+.page{
+	background-color: #FFFFFF;
+	color: rgb(211, 61, 61);
+	left: 0%;
+	right: 0%;
+	margin-bottom: 0%;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 0%;
+	font-family: inter, sans-serif;
+	font-size: 20.73px;
+	font-weight: 400;
+	position: static;
+	padding-left: -0px;
+}
+body{
+	margin: 0px;
+}
+p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.heading-1{
+	color: #FFFFFF;
+	display: flex;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	justify-content: space-evenly;
+	
+}
+.heading{
+	background-color: rgb(1, 2, 12);
+	color: rgb(172, 118, 58);
+	box-sizing: border-box;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+	font-family: "News cycle", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	height: 150px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.body2{
+	margin: 0;
+	background-color: rgb(219, 217, 79);
+	color: black;
+    padding-top: 0%;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.ahadi{
+	font-size: 56px;
+	font-family: inter, sans-serif;
+	text-align: center;
+	text-wrap: balance;
+	font-weight: 500;
+}
+.text1{
+	overflow: hidden;
+    align-items: center;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+	margin-top: 30px;
+}
+.text_land{
+    top: 20%;
+	left: 0%;
+	width: 40%;
+	margin-left: 4%;
+    text-align: left;
+}
+.image_land{
+	margin-right: 20px;
+	object-fit: fill;
+    right: 0%;    
+    top: 20%;
+	left: 0%;
+	width: 50%;
+	height: 400px;
+	margin-left: 4%;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+}
+.about_home{
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: left;
+}
+.about_us{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-top: 19px;
+}
+.text_home{
+	top: 0px;
+	left: 0px;
+	padding-top: 1px;
+	margin-top: -1px;
+}
+.get_email_contact_home{
+    top: 20%;
+	left: 0%;
+	margin-left: 4%;
+	top: 0px;
+	width: 100%;
+	padding-right: 10%;
+	text-align: right;
+	line-height: 49px;
+	padding-top: 1px;
+	margin-top: -1px;
+}
+.get_in{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.foot{
+	margin-top: 0px;
+	background-color: rgb(1, 2, 12);
+	color: #11d3a9cb;
+	height: 60px;
+	font-size: 15px;
+	font-family: sans-serif;
+	border-radius: 10px;
+}
+.foot-1{
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+	.ahadi{
+		width: 100%;
+		font-size: 50px;
+		margin: 0;
+	}
+	.text1{
+		flex-direction: column;
+	}
+	.text_land{
+		width: 100%;
+		margin-top: 1%;
+	}
+	.image_land{
+		width: 100%;
+		margin-top: 10%;
+	}
+	.footer{
+		flex-direction: column;
+	}
+	.text_home{
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.about_home{
+		margin-top: 14px;
+	}
+	.about_us{
+		align-content: center;
+		width: 100%;
+	}
+	.get_email_contact_home{
+		text-align: left;
+	}
+	.get-in{
+		margin-left: 0px;
+	}
+}

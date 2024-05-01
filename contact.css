@@ -1,0 +1,50 @@
+.contact{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.get-email_contact{
+    top: 20%;
+	left: 0%;
+	width: 40%;
+	margin-left: 4%;
+    text-align: left;
+}
+.get_information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+.get_information{    
+    right: 0%;    
+    top: 20%;
+	left: 0%;
+	width: 40%;
+	margin-left: 4%;
+}*/
+.email_icon{
+    display: flex;
+}
+.email_call{
+    align-items: center;
+}
+.email-icon{
+    padding-bottom: 25px;
+}
+.call-icon, 
+.map-icon{
+    padding-top: 25px;
+}
+.email-icon,
+ .call-icon,
+ .map-icon{
+    display: flex;
+    align-items: center;
+
+}
+.name_email_message{
+    font-size: 40px;
+    
+}
